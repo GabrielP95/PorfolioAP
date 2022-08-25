@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --primary-color: white;
+    --font-color: black;
+    --details-color: rgb(255, 38, 0);
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
