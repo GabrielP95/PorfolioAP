@@ -54,7 +54,7 @@
 }
 
 .boton{
-    background-color: rgb(0, 53, 142);
+    background-color: var(--argprog-blue);
     padding: 10px;
     color: var(--primary-color);
     border-radius: 5px;
