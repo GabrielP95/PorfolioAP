@@ -23,13 +23,19 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({
-      // set defaults here
-      radius: 100,
-      outerStrokeWidth: 16,
-      innerStrokeWidth: 8,
-      outerStrokeColor: "#78C000",
-      innerStrokeColor: "#C7E596",
-      animationDuration: 300
+      titleFontSize:"18",
+      titleColor:"var(--argprog-blue)",
+      titleFontWeight:"500",
+      subtitleColor:"var(--details-color)",
+      subtitleFontSize:"15",
+      subtitleFontWeight:"700",
+      radius:70,
+      outerStrokeWidth:8,
+      innerStrokeWidth:1,
+      outerStrokeColor:"var(--details-color)",
+      innerStrokeColor:"var(--argprog-blue)",
+      animation:true,
+      animationDuration:1000
     })
   ],
   providers: [],

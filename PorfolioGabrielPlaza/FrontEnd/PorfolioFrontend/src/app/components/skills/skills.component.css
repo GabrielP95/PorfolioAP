@@ -1,0 +1,25 @@
+.skills {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-top: 2px solid #666;
+}
+
+.tituloseccion {
+    color: var(--details-color);
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-align: end;
+}
+
+.subtituloseccion {
+    color: var(--argprog-blue);
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+div{
+    padding: 30px 0;
+}
