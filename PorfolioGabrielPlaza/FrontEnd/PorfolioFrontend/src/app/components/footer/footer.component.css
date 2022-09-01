@@ -1,0 +1,28 @@
+.footer {
+    box-shadow: 0 -4px 5px rgb(12, 12, 12);
+    left: 0;
+    bottom:0 ;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding-top: 5px;
+    z-index: 100;
+}
+
+.contenedor{
+    max-width: 980px;
+    min-height: 70px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h5,a{
+    color: var(--argprog-blue);
+    font-weight: 700;
+}
+
+a:hover{
+    color: var(--details-color)
+}
