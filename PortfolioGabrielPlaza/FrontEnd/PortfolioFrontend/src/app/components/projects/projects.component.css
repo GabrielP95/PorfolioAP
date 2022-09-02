@@ -10,7 +10,7 @@
     color: var(--details-color);
     font-weight: 700;
     padding-bottom: 10px;
-    text-align: start;
+    text-align: end;
 }
 
 p,li{
